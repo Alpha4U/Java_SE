@@ -11,7 +11,6 @@ public class DBCapabilities {
 		
 		Connection con = null;
 		DatabaseMetaData dbmd = null;
-		
 		try{
 			//register JDBC driver
 			Class.forName("oracle.jdbc.driver.OracleDriver");

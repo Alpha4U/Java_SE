@@ -15,8 +15,7 @@ public class ResultSetMetaApplication {
 		 Statement st  = null;
 		 ResultSet rs = null;
 		 ResultSetMetaData rsmd = null;
-		 int colCnt = 0;
-		 
+		 int colCnt = 0; 
 		 try{
 			 //register JDBC driver
 			 Class.forName("oracle.jdbc.driver.OracleDriver");

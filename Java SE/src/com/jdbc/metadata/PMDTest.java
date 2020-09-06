@@ -14,7 +14,6 @@ public class PMDTest {
 		ParameterMetaData pmd = null;
 		PreparedStatement ps = null;
 		int count = 0;
-
 		try {
 			// register JDBC driver
 			Class.forName("oracle.jdbc.driver.OracleDriver");
